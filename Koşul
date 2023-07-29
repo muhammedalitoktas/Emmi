@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+	int kirmizi,sari,mor,pembe,bilmiyorum;
+	int a1=0,a2=0;
+	printf("kirmizi ");
+	scanf("%d",&kirmizi);
+	printf("sari ");
+	scanf("%d",&sari);
+	printf("mor ");
+	scanf("%d",&mor);
+	printf("pembe ");
+	scanf("%d",&pembe);
+	a1=(sari+pembe)*5;
+	a2=(kirmizi-mor)/2;
+	if(a2<pembe)
+	{
+		printf("%d",3*kirmizi);
+	}
+	else if(a1/a2>=sari+kirmizi)
+	{
+		printf("%d",mor/3);
+	}
+	else if(a1==a2)
+	{
+		printf("%d %d",a1,a2);
+	}
+	return 0;
+}
