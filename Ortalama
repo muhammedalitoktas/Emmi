@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int o1v1,o1v2,o2v1,o2v2,top=0,top2=0,ort=0,ort2=0;
+	printf("o1v1: ");
+	scanf("%d",&o1v1);
+    printf("o1v2: ");
+	scanf("%d",&o1v2);
+    top=o1v1+o1v2;
+	printf("o1v1+o1v2=%d\n",top);
+	ort=top/2;
+	printf("%d\n",ort);
+	printf("o2v1: ");
+	scanf("%d",&o2v1);
+	printf("o2v2: ");
+	scanf("%d",&o2v2);
+	top2=o2v1+o2v2;
+	printf("o2v1+o2v2=%d\n",top2);
+	ort2=top2/2;
+	printf("%d\n",ort2);
+	return 0;
+}
