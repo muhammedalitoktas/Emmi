@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+	int x,y;
+	printf("x");
+	scanf("%d",&x);
+	printf("y");
+	scanf("%d",&y);
+	if(x>y)
+	{
+		printf("x, y'yi yok ediyor.");
+	}
+	else if(x<y)
+	{
+		printf("y, x'i yok ediyor.");
+	}
+	else
+	{
+		printf("gorkem gotunu aciyor");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
