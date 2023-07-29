@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int x=3,i=3;
+    while(x<4)
+	{
+		printf("gorkem gotunu siktiriyor ");
+	}
+	getch();
+	return 0;
+}
