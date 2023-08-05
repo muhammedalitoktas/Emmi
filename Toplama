@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int a1,a2,top=0,ort=0;
+	printf("sayi 1: ");
+	scanf("%d",&a1);
+	printf("sayi 2: ");
+	scanf("%d",&a2);
+	top=a1+a2;
+	printf("toplam: %d",top);
+	return 0;
+}
